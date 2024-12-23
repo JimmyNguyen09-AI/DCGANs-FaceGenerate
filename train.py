@@ -32,7 +32,7 @@ def get_args():
     parser.add_argument("--log-path","-p",type = str,default="tensorboard")
     parser.add_argument("--data-path","-d",type = str,default = "./dataset")
     parser.add_argument("--checkpoint-path", "-c", type=str, default="train_model1")
-    parser.add_argument("--pretrained-path", "-t", type=str, default="train_model1/last.pt")
+    parser.add_argument("--pretrained-path", "-t", type=str, default=None)
     parser.add_argument("--noise_vector", "-n", type=int, default=100)
     parser.add_argument("--output_image_file", "-o", type=str, default="output")
 
