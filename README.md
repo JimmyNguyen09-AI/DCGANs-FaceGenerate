@@ -13,7 +13,7 @@ They compete adversarially, enabling realistic data generation for images, text,
  
 ## Demo
 <p align="center">
-  <img src="image/ouput.gif" width=650><br/>
+  <img src="image/output.gif" width=650><br/>
   <i>Demo</i>
 </p>
 
